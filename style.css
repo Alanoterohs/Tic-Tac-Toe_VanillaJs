@@ -1,3 +1,4 @@
+
 .title {
   text-align: center;
 }
@@ -6,13 +7,40 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  list-style:none;
-  margin: 0 auto;
 }
 
 
+
+body {
+  margin: 0;
+  background-color: #B6D3E4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  margin: 30px;
-  padding: 50px;
-  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 55px;
+  width: 50px;
+  height: 50px;
+  font-size: 5rem;
+  color: #46494b;
+  background-color: #FFFFFF;
+  border: 2px solid #023A40;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section {
+  ;
+}
+
+main {
+
 }
